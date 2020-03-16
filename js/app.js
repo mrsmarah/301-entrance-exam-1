@@ -41,7 +41,6 @@ function getItem(){
 }
 
 function render(){
-    getItem();
 var container = document.getElementById("list");
 var ulEL = document.createElement('ul');
 // ulEl.textContent='';
