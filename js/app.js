@@ -21,11 +21,15 @@ function clickbtn(e){
     if ((document.getElementById("taskInput").value !== '') && (document.getElementById("dateInput").value !== '')){
         console.log('hi');
         new Task(document.getElementById("taskInput").value ,document.getElementById("dateInput").value );
-        render();
+        // render();
+        // getItem();
+
     }
     console.log(tasks);
             // render();
             setItem();
+            getItem();
+
 }
 function setItem(){
     var objStorage = JSON.stringify(tasks);
@@ -35,10 +39,8 @@ function getItem(){
     var objStorage = localStorage.getItem('objStorage');
     if (objStorage){
         tasks = JSON.parse(objStorage);
-        // render();
     }
 }
-getItem();
 
 function render(){
 var container = document.getElementById("list");
@@ -51,4 +53,5 @@ for(var i=0; i<tasks.length ; i++){
     liEl.textContent=`${tasks[i].name}`
 }
 }
-// render();
+getItem();
+render();

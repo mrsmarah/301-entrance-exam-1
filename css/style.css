@@ -1,8 +1,8 @@
 /* The used font is "Roboto" -> google font.
 The used colors are "#6d8adbc7" , "#dae4ff" and "#eee". */
  #formDiv{
-     display: block;
-     margin: 0 auto;
+     display:inline;
+     /* margin: 0 auto; */
 
  }
  h1 {
@@ -10,20 +10,27 @@ The used colors are "#6d8adbc7" , "#dae4ff" and "#eee". */
      font-weight: bold;
      text-align: center;
      padding-top: 5%;
- }
+     padding-bottom: 6%;
+    }
 
  form#formData {
-    display: block;
+    /* display: block; */
     background-color: #7eb1f352;
     width: 50%;
     height: 500px;
-    margin: 10% auto;
+    margin: 10% ;
+    float: left;
+    clear: left;
+}
+ul {
+    display: inline;
+    list-style: circle;
 }
 label {
     display: block;
     text-align: left;
     margin: 6% auto;
-    padding-left: 20%;
+    padding-left: 17%;
 }
 span {
     display: block;
@@ -51,4 +58,13 @@ input#dateInput {
     margin-top: 2%;
 
 
+}
+div#list {
+    display: inline;
+    float: r;
+    float: left;
+    margin-top: 20%;
+    /* margin-right: 23%; */
+    font-size: 20px;
+    line-height: 49px;
 }
