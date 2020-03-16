@@ -1,2 +1,37 @@
 /* The used font is "Roboto" -> google font.
 The used colors are "#6d8adbc7" , "#dae4ff" and "#eee". */
+ #formDiv{
+     display: block;
+     margin: 0 auto;
+
+ }
+ h1 {
+     font-size: 25px;
+     font-weight: bold;
+     text-align: center;
+ }
+
+ form#formData {
+    display: block;
+    background-color: #9e97e7a4;
+    width: 50%;
+    height: 300px;
+    margin: 10% auto;
+}
+label {
+    display: block;
+    text-align: center;
+    margin: 6% auto;
+}
+span {
+    display: block;
+    font-size: 25px;
+}
+#submit-btn{
+    background-color: rgba(77, 77, 110, 0.61);
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 45%;
+
+}
