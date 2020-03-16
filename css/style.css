@@ -9,29 +9,46 @@ The used colors are "#6d8adbc7" , "#dae4ff" and "#eee". */
      font-size: 25px;
      font-weight: bold;
      text-align: center;
+     padding-top: 5%;
  }
 
  form#formData {
     display: block;
-    background-color: #9e97e7a4;
+    background-color: #7eb1f352;
     width: 50%;
-    height: 300px;
+    height: 500px;
     margin: 10% auto;
 }
 label {
     display: block;
-    text-align: center;
+    text-align: left;
     margin: 6% auto;
+    padding-left: 20%;
 }
 span {
     display: block;
     font-size: 25px;
 }
 #submit-btn{
-    background-color: rgba(77, 77, 110, 0.61);
+    background-color: rgba(42, 63, 107, 0.61);
     color: white;
     text-align: center;
-    margin: 0 auto;
-    margin-left: 45%;
+    /* margin: 0 auto; */
+    margin-right: 16%;
+    float: right;
+    clear: both;
+
+}
+input#taskInput {
+    width: 80%;
+    height: 30px;
+    margin-top: 2%;
+
+}
+input#dateInput {
+    width: 80%;
+    height: 30px;
+    margin-top: 2%;
+
 
 }
